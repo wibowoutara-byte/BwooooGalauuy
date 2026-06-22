@@ -1,0 +1,12 @@
+.git
+.venv
+node_helper/node_modules
+node_helper/wa_session
+data
+*.log
+__pycache__
+*.pyc
+.env
+.next
+node_modules
+README.md
