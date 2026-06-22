@@ -1,0 +1,10 @@
+2026-06-22 16:28:57,680 [WARNING] WABot: OWNER_PHONE_NUMBER belum diisi di .env. Fitur /pair hanya bisa pakai nomor argumen: /pair +62xxx
+2026-06-22 16:28:57,681 [WARNING] WABot: ALLOWED_USER_IDS kosong — semua orang bisa pakai bot ini. Sangat disarankan diisi untuk keamanan.
+2026-06-22 16:28:57,846 [INFO] WABot: 🤖 WA Checker Bot berjalan. Tekan CTRL+C untuk berhenti.
+2026-06-22 16:28:58,193 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8923527361:AAG3JamJcKl1meZEROdWsgz3rnRMdKKHoks/getMe "HTTP/1.1 200 OK"
+2026-06-22 16:28:58,301 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8923527361:AAG3JamJcKl1meZEROdWsgz3rnRMdKKHoks/deleteWebhook "HTTP/1.1 200 OK"
+2026-06-22 16:28:58,303 [INFO] telegram.ext.Application: Application started
+2026-06-22 16:29:08,601 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8923527361:AAG3JamJcKl1meZEROdWsgz3rnRMdKKHoks/getUpdates "HTTP/1.1 200 OK"
+2026-06-22 16:29:18,713 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8923527361:AAG3JamJcKl1meZEROdWsgz3rnRMdKKHoks/getUpdates "HTTP/1.1 200 OK"
+2026-06-22 16:29:28,824 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8923527361:AAG3JamJcKl1meZEROdWsgz3rnRMdKKHoks/getUpdates "HTTP/1.1 200 OK"
+2026-06-22 16:29:38,927 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8923527361:AAG3JamJcKl1meZEROdWsgz3rnRMdKKHoks/getUpdates "HTTP/1.1 200 OK"
