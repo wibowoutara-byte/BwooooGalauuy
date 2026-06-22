@@ -1,0 +1,22 @@
+services:
+  - type: worker
+    name: wa-checker-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    # Disk persisten untuk menyimpan sesi WhatsApp + data (history, allowed ids)
+    disk:
+      name: bot-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: ADMIN_USER_ID
+        sync: false
+      - key: OWNER_PHONE_NUMBER
+        sync: false
+      - key: DATA_DIR
+        value: /data
+      - key: WA_SESSION_DIR
+        value: /data/wa_session
